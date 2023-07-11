@@ -1,7 +1,6 @@
-:root{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 p {
   background-color: rgb(21, 255, 0);
@@ -37,4 +36,54 @@ h1,
 h2,
 .center {
   text-align: center;
+}
+
+.center {
+  border: 2px mixed rgb(15, 5, 5);
+}
+
+/*styles for page 3 */
+.days {
+  list-style-position: inside;
+}
+
+.days li {
+  text-transform: uppercase;
+  color:aquamarine;
+  font-size: 1.4em
+}
+
+.Flavors{
+  list-style-type: georgian;
+}
+
+.Flavors li{
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+/* stlyes for Navigation */
+.nav-h, .nav-v{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(14, 6, 6);
+}
+
+li a {
+  height: 7px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-h li{
+  float: left;
+}
+
+.nav-v {
+  width: 200px;
 }

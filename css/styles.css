@@ -3,7 +3,7 @@
 }
 
 p {
-  background-color: rgb(21, 255, 0);
+  background-color: rgb(246, 255, 0);
 }
 h2 {
   text-transform: uppercase;
@@ -86,4 +86,66 @@ li a {
 
 .nav-v {
   width: 200px;
+}
+.active {
+  background-color: red;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Styles for page 5 */
+#handling-div{
+  border: 8px solid black;
+  padding: 18px 5px 4px;
+  background-color: rgb(177, 177, 177);
+}
+
+#handling-h1{
+  background-color: antiquewhite;
+}
+
+#handling-p{
+  display: inline;
+  background-color: blue;
+}
+
+#handling-a{
+  display: block;
+  background-color: aqua;
+}
+
+.box-model, .box-model2{
+  width: 400px;
+  height: 120px;
+  padding: 20px;
+}
+
+.box-model{
+  border: 10px solid red;
+  margin: 0 0 20px 0;
+}
+
+.box-model2{
+  border: 10px solid blue;
+  box-sizing: border-box;
+}
+
+.position-example{
+  background-color: green;
+  height: 150;
+}
+
+.position-a{
+  background-color: orange;
+  position: absolute;
+  display: inline;
+}
+
+.position-r{
+  position: relative;
+  display: inline;
+  background-color:rgb(177, 177, 177);
+  color: 000;
 }

@@ -92,7 +92,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #5f5d5d;
 }
 
 /* Styles for page 5 */
@@ -139,7 +139,7 @@ li a:hover {
 
 .position-a{
   background-color: orange;
-  position: absolute;
+ position: abosolute;
   display: inline;
 }
 
@@ -148,4 +148,13 @@ li a:hover {
   display: inline;
   background-color:rgb(177, 177, 177);
   color: 000;
+}
+
+.span-p{
+  font-size: 1.5em;
+}
+
+.span-p span{
+  font-weight: bold;
+  color: aquamarine;
 }

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/styles.css" type="text/css" />
-
     <title>Page 8</title>
 </head>
 <body>
@@ -57,6 +56,7 @@
 
 </div>
 </form>
+<!--Select form-->
 <form name="basic" class="basic-form"></form>
 <div class="more-form"> 
 <select name="favcolor" id="favcolor">
@@ -69,7 +69,29 @@
 </div>
 </form>
 
+<button type="button" onclick="alert('Hey')">Hello</button>
 
+    <div class="out-form">
+    <h1 id="out-name"></h1>
+    <p id="out-movie"></p>
+    <p id="out-color"></p>
+</div>  
+<button type="button" onclick="result()">Submit</button>
+
+<script> 
+
+function result(){
+  let name = document.getElementById("fname").value;
+  let movie = document.querySelector('input[name="movie"]:checked').value;
+  let color = document.querySelector('#colors').value;
+
+
+  document.getElementById("out-name").innerHTML = name;
+  document.getElementById("out-movie").innerHTML = movie;
+  document.getElementById("out-color").innerHTML = color;
+}
+</script>
 </body>
 </html>
+
 
